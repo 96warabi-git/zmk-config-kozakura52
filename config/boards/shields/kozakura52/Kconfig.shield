@@ -1,0 +1,8 @@
+# kozakura52.kconfig
+
+config SHIELD_KOZAKURA52_R
+    def_bool $(shields_list_contains,kozakura52_R)
+
+config SHIELD_KOZAKURA52_L
+    def_bool $(shields_list_contains,kozakura52_L)
+

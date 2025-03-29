@@ -1,0 +1,8 @@
+file_format: "1"
+id: kozakura52
+name: kozakura52
+type: shield
+url: https://github.com/96warabi-git
+requires: [seeeduino_xiao_ble]
+features:
+  - keys

@@ -1,0 +1,4 @@
+name: kozakura52
+build:
+  board_root: boards
+  dts_root: .

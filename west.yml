@@ -1,0 +1,33 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: 96warabi-git
+      url-base: https://github.com/96warabi-git
+
+  projects:
+    - name: zmk
+      path: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+
+    - name: zmk-rgbled-widget
+      path: modules/zmk-rgbled-widget
+      remote: 96warabi-git
+      revision: main
+
+    - name: zmk-pmw3610-driver
+      path: modules/zmk-pmw3610-driver
+      remote: 96warabi-git
+      revision: main
+
+    - name: zephyr
+      path: zephyr
+      remote: zmkfirmware
+      revision: v3.5.0+zmk-fixes
+      import: true
+
+  self:
+    path: config
+    
